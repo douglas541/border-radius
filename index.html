@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+    <h1>border radius
+        <h2>a css border radius generator for lazy people</h2>
+    </h1>
+
+    <div id="borda-fora">
+        <div id="borda-dentro">
+            <p id="texto-resposta"></p>
+        </div>
+        <input type="text" maxlength="3" class="input um" id="input-um">
+        <input type="text" maxlength="3" class="input dois" id="input-dois">
+        <input type="text" maxlength="3" class="input tres" id="input-tres">
+        <input type="text" maxlength="3" class="input quatro" id="input-quatro">
+    </div>
+
+    <script src="js/index.js"></script>
+
+    <script>
+        var borda = document.getElementById("borda-fora")
+        borda.style.borderRadius = '100px'
+    </script>
+</body>
+
+</html>

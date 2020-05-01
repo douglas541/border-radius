@@ -1,0 +1,86 @@
+body{
+    color: rgb(116, 159, 167);
+    background-color: rgb(39, 43, 46);
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 17px;
+    padding-top: 0;
+    position: relative;
+    top: -20px;
+}
+
+#borda-fora{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(202, 209, 212);
+    margin: auto;
+    margin-top: 40px;
+}
+
+#borda-dentro{
+    height: 300px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 50px;
+    left: 75px;
+    border: rgb(39, 43, 46);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#texto-resposta{
+    color: black;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.input{
+    height: 20px;
+    width: 30px;
+    background-color: rgb(56, 62, 66);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.um{
+    position: relative;
+    top: -300px;
+    left: -280px;
+}
+
+.dois{
+    position: relative;
+    top: -300px;
+    left: 351px;
+}
+
+.tres{
+    position: relative;
+    top: 70px;
+    left: 315px;
+}
+
+.quatro{
+    position: relative;
+    top: 70px;
+    left: -388px;
+}

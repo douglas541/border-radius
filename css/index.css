@@ -48,6 +48,19 @@ h2{
     text-align: left;
 }
 
+#inner-p{
+    position: relative;
+    top: 22 px;
+    left: 8px;
+    font-size: 15px;
+
+    color: rgb(116, 159, 167);
+    background-image: url('../img/git_image.svg');
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position-x: 215px;
+}
+
 .input{
     height: 20px;
     width: 30px;

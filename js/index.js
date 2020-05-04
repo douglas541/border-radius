@@ -32,6 +32,7 @@ function add() {
             borda.style.borderTopLeftRadius = max_value + 'px'
             inputUm.value = max_value
             text_out[0] = `border-top-left-radius: ${max_value}px;`
+            value1 = 150
         } else {
             borda.style.borderTopLeftRadius = '0'
             text_out[0] = 'null'
@@ -44,6 +45,7 @@ function add() {
             borda.style.borderTopRightRadius = max_value + 'px'
             inputDois.value = max_value
             text_out[1] = `border-top-right-radius: ${max_value}px;`
+            value2 = 150
         } else {
             borda.style.borderTopRightRadius = '0'
             text_out[1] = 'null'
@@ -56,6 +58,7 @@ function add() {
             borda.style.borderBottomRightRadius = max_value + 'px'
             inputTres.value = max_value
             text_out[2] = `border-bottom-right-radius: ${max_value}px;`
+            value3 = 150
         } else {
             borda.style.borderBottomRightRadius = '0'
             text_out[2] = 'null'
@@ -68,6 +71,7 @@ function add() {
             borda.style.borderBottomLeftRadius = max_value + 'px'
             inputQuatro.value = max_value
             text_out[3] = `border-bottom-left-radius: ${max_value}px;`
+            value4 = 150
         } else {
             borda.style.borderBottomLeftRadius = '0'
             text_out[3] = 'null'
@@ -84,6 +88,4 @@ function add() {
         borda.style.borderRadius = value1 + 'px'
         texto.innerText = `border-radius: ${value1}px;`
     }
-
-
 }
